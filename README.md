@@ -25,7 +25,7 @@ During the recent MOBLAND NFT Sale, 150 turfs and 1250 farms have been sold. 290
 
 ### A future block
 
-The chosen block is [24161607](https://bscscan.com/block/24161607). Estimated Target: Fri Dec 23 2022 11:59:56 GMT-0800 (Pacific Standard Time). 
+The chosen block is [24161607](https://bscscan.com/block/24161607). Estimated Target: Fri Dec 23 2022 12:00:00 GMT-0800 (Pacific Standard Time). 
 
 When the block is mined this repo will be updated and ready to shuffle the metadata.
 
