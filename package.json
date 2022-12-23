@@ -1,0 +1,20 @@
+{
+  "name": "turf-farm-reveal",
+  "version": "0.0.1",
+  "description": "A simple tool to manage the reveal of Turf and Farm tokens",
+  "scripts": {
+    "test": "mocha test/*.test.js --exit"
+  },
+  "main": "shuffler.js",
+  "author": "Francesco Sullo <francesco@sullo.co>",
+  "license": "MIT",
+  "dependencies": {
+    "@ndujalabs/metashu": "^0.2.2",
+    "fs-extra": "^10.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2"
+  }
+}
