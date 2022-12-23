@@ -28,9 +28,9 @@ describe("Shuffler", async function () {
     await shuffler.run()
 
     const farmR0 = (await fs.readFile(resultPath + "/farm-metadata.csv", "utf8")).split("\n")
-    expect(farmR0[23]).equal("23,MOBLAND Weed Farm #23,Common,1,1,23,1,1,0,1,4,4,270,42600,245,352,9897,4948,629,629,1")
+    expect(farmR0[23]).equal("23,MOBLAND Weed Farm #23,Rare,1,1,23,1,1,0,21,9,9,960,43500,255,460,23515,11757,776,776,1")
 
-    expect(farmR0.length).equal(1251)
+    expect(farmR0.length).equal(1541)
 
     const turfR0 = (await fs.readFile(resultPath + "/turf-metadata.csv", "utf8")).split("\n")
     expect(turfR0[34].split(",")[0]).equal("49")
@@ -48,7 +48,7 @@ describe("Shuffler", async function () {
 
     const farmR1 = (await fs.readFile(resultPath + "/farm-metadata.csv", "utf8")).split("\n")
 
-    expect(farmR1[23]).equal("23,MOBLAND Weed Farm #23,Uncommon,1,1,23,1,1,0,11,6,6,590,43200,260,402,14857,7428,641,641,1")
+    expect(farmR1[23]).equal("23,MOBLAND Weed Farm #23,Common,1,1,23,1,1,0,1,4,4,290,42120,245,355,9490,4745,613,613,1")
 
     const turfR1 = (await fs.readFile(resultPath + "/turf-metadata.csv", "utf8")).split("\n")
     expect(turfR1[35]).equal("50,MOBLAND Residential Turf #50,50,8,8,64,1,1,1,1,1,0,1,0,Rare")
