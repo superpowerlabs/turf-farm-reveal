@@ -4,7 +4,7 @@ A simple tool to reveal turfs and farms mystery boxes
 
 ### Introduction
 
-During the recent MOBLAND NFT Sale, 150 turfs and 1250 farms have been sold. 290 more farms have been airdropped to winners, for a total of 1540 farms. This repo manages the reveal of the metadata.
+During the recent MOBLAND NFT Sale, 150 turfs and 1250 farms have been sold. 290 more farms have been airdropped to winners, for a total of 1540 farms. This repo manages the reveal of the metadata for the turfs and the sold 1250 farms. A later reveal there will be for the 290 free farms.
 
 #### The flow
 
