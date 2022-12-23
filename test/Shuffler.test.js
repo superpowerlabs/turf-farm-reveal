@@ -13,7 +13,7 @@ describe("Shuffler", async function () {
   })
 
   after(async function() {
-    // await fs.emptyDir(testPath);
+    await fs.emptyDir(testPath);
   })
 
   it("should shuffle the data and verify that it is correct", async function () {
